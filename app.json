@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "BusGame",
-    "slug": "BusGame",
+    "name": "LylyGame",
+    "slug": "LylyGame",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,10 +18,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "nguyenlemychau.lylygame"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "af0cb692-75b4-4416-ba20-76a80d0eb54f"
+      }
+    },
+    "owner": "nguyenlemychau"
   }
 }
